@@ -29,6 +29,6 @@
                 </ul>
             </nav>
         </header>
-        <h1>{{ $greeting.' '.$name }}</h1>
+        <h1>{{ $hello.' '.$name }}</h1>
     </body>
 </html>
