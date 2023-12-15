@@ -19,4 +19,12 @@ Route::get('/', function () {
         'name' => 'World'
     ];
     return view('home', $data);
-});
+})->name('home');
+
+Route::get('/pages.movie', function () {
+    $data = [
+        'hello' => 'Hello',
+        'name'=> 'Movie'
+    ];
+    return view('pages.movie', $data);
+})->name('movie');
