@@ -21,7 +21,7 @@ Route::get('/', function () {
     return view('home', $data);
 })->name('home');
 
-Route::get('/pages.movie', function () {
+Route::get('/movie', function () {
     $data = [
         'hello' => 'Hello',
         'name'=> 'Movie'
